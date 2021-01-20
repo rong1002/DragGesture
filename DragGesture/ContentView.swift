@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {    
+struct ContentView: View {
     @State var choose = 1
     @State var color = Color.black
     @State var color1 = Color.green
@@ -252,7 +252,6 @@ struct TriangleView: View {
 }
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        //        ContentView()
-        triangle()
+        ContentView()
     }
 }
